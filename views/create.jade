@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  h1= Login
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          a.navbar-brand(href='/') Verkefni 6
+      .collapse.navbar-collapse
+          ul.nav.navbar-nav
+              li
+                  a(href='/') Home
+              li
+                  a(href='/login') Login
+              li.active
+                  a(href='/create') Create Account
+              li
+                  a(href='/wall') Wall
+  //- form(method='post', action='/create')
+  //-   if post
+  //-     if !success
+  //-       p Villa við að útbúa notanda
+  //-     else
+  //-       p Notandi búinn til!
+    
+  //-   div: label(for='username') Username
+  //-   input(type='text', id='username', name='username', value=username)
+
+  //-   div: label(for='password') Password
+  //-   input(type='password', id='password', name='password')
+
+  //-   div: button Create user
+  .container
+      .card.card-container
+        // <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" />
+        img#profile-img.profile-img-card(src='//ssl.gstatic.com/accounts/ui/avatar_2x.png')
+        |             
+        p#profile-name.profile-name-card
+        |             
+        form(method='post', action='/create').form-signin
+          if post
+            if !success
+              p Villa við að útbúa notanda
+            else
+              p Notandi búinn til 
+          span#reauth-email.reauth-email
+          |                 
+          input(class='form-control', id='inputEmail', type='text' name='username' placeholder='username')
+          |                 
+          input(class='form-control', id='inputPassword', type='password' name='password' placeholder='password')
+          |                                 
+          button.btn.btn-lg.btn-primary.btn-block.btn-signin(type='submit') Create
+        

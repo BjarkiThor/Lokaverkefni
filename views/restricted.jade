@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= Leyndó
+  p Innskráður sem #{user.username}
+
+  if users
+    p Notendur í kerfi:
+    ul
+      each u in users
+        li= u.username
+
+  p: a(href='/logout') Útskrá

@@ -1,0 +1,64 @@
+extends layout
+
+block content
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          a.navbar-brand(href='/') Verkefni 6
+      .collapse.navbar-collapse
+          ul.nav.navbar-nav
+              li
+                  a(href='/') Home
+              li
+                  a(href='/login') Login
+              li
+                  a(href='/create') Create Account
+              li.active
+                  a(href='/wall') Wall
+              li
+                  a(href='/logout') Útskrá
+  h1 Create your own pubcrawl
+  p Logged in as 
+  //#{user.username}
+  .row
+    .col-md-2.cont-notendur
+      if users
+        p Notendur í kerfi:
+        each u in users
+          .notendur
+            p
+              img(src="http://api.adorable.io/avatars/80/"+ u.username +"@adorable.io.png") 
+              span #{u.username}
+    .col-md-8
+      if post
+        if !success
+          p Villa! comment var of langt Max 300 tákn.
+      form(method='post' action='/wall')
+        textarea(class='inntak' name='comment' value='texti')
+        div: button(class="btn btn-info") Post Comment
+      if bar
+        each b in bar
+          each n in b
+            p= n.map
+
+
+      iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', width='350', height='350', src='https://maps.google.com/maps?hl=en&q=bar 11 iceland&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed')
+      //- h2 Comments
+      //- if comments
+      //- ul
+      //-   each c in comments
+      //-     each k in c
+      //-       .commentwrapper
+      //-         p(class="headcomment")
+      //-           img(src="http://api.adorable.io/avatars/80/"+ k.username +"@adorable.io.png") 
+      //-           span(class="username") #{k.username} 
+      //-           span Date: #{k.date}
+      //-         p(class="comment") #{k.comment}
+      
+    
+
+

@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px; }
+  html body {
+    padding: 50px;
+    font: 1.4rem "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: white; }
+  html a {
+    color: #00B7FF; }
+
+.owl-carousel {
+  position: relative; }
+  .owl-carousel .htexti {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    margin-left: -270px;
+    opacity: 0.8;
+    font-size: 4em; }
+  .owl-carousel img {
+    min-height: 200px; }
+
+.card-container.card {
+  max-width: 350px;
+  padding: 40px 40px; }
+
+.btn {
+  font-weight: 700;
+  height: 36px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  margin-top: 10px; }
+
+.card {
+  background-color: #F7F7F7;
+  /* just in case there no content*/
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); }
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.profile-name-card {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 0;
+  min-height: 1em; }
+
+.btn.btn-signin {
+  /*background-color: #4d90fe; */
+  background-color: #6891a2;
+  /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+  padding: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  -o-transition: all 0.218s;
+  -moz-transition: all 0.218s;
+  -webkit-transition: all 0.218s;
+  transition: all 0.218s; }
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+  background-color: #0c6121; }
+
+.notendur img {
+  height: 20px;
+  border-radius: 50%; }
+
+.notendur span {
+  margin-left: 5px; }
+
+.cont-notendur {
+  border-radius: 20px;
+  border: 2px solid #999999;
+  padding: 8px;
+  margin-bottom: 5px; }
+
+.commentwrapper {
+  border-radius: 20px;
+  border: 2px solid #999999;
+  padding: 8px;
+  margin-bottom: 5px; }
+  .commentwrapper img {
+    height: 80px;
+    border-radius: 50%; }
+  .commentwrapper .username {
+    margin-left: 10px;
+    font-weight: bold; }
+  .commentwrapper .comment {
+    text-align: center; }
+
+.inntak {
+  border-radius: 5px;
+  border: 5px solid #999999;
+  padding: 8px;
+  min-height: 100px;
+  width: 100%; }

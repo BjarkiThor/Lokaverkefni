@@ -1,0 +1,101 @@
+var json = {
+  "barir": {
+    // ______ Simulated annealing________ draslið ur formlegum.
+    "Bar11":{
+      "Heimilisfang": "Hverfisgata 18",
+      "Tegund": "Rock Bar",
+      "map": "https://maps.google.com/maps?hl=en&q=bar 11 iceland&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"
+    },
+    "B5":{
+      "Heimilisfang": "Bankastræti 5",
+      "Tegund": "Miami night club?", //finna tegund....
+      "map": "https://maps.google.com/maps?hl=en&q=bankastræti 5&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "1919":{
+      "Heimilisfang":"Pósthússtræti 2",
+      "Tegund": "Hotel bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Pósthússtræti 2&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "American Bar":{
+      "Heimilisfang": "Austurstræti 8-10",
+      "Tegund": "[insert tegund here]", //finna tegundina á þessum. Er oft ekki viss með þær
+      "map": "https://maps.google.com/maps?hl=en&q=Austurstræti 8&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Bar Ananas":{
+      "Heimilisfang": "Klappastígur 38",
+      "Tegund": "Pineapple bar", //finna eitthvað betra eða meira general?
+      "map": "https://maps.google.com/maps?hl=en&q=Klappastígur 38&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Bjarni Fel":{
+      "Heimilisfang": "Austurstræti 20",
+      "Tegund": "Sports bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Austurstræti 20&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Boston":{
+      "Heimilisfang": "Laugavegur 28b",
+      "Tegund": "placeholder",
+      "map": "https://maps.google.com/maps?hl=en&q=Laugavegur 28b&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Bravó":{
+      "Heimilisfang": "Laugavegur 22",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=Laugavegur 22&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Den Danske Kro":{
+      "Heimilisfang": "Ingólfsstræti 3",
+      "Tegund": "",
+      "map": "https://maps.google.com/maps?hl=en&q=Ingólfsstræti 3&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+
+    "Dillon":{
+      "Heimilisfang": "Laugavegur 30",
+      "Tegund": "Rock Bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Laugavegur 30&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "English Pub":{
+      "Heimilisfang": "Austurstræti 12",
+      "Tegund": "English pub",
+      "map": "https://maps.google.com/maps?hl=en&q=Austurstræti 12&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Gaukurinn":{
+      "Heimilisfang": "Tryggvagata 22",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=Tryggvagata 22&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Kaffibarinn":{
+      "Heimilisfang": "Bergstaðastræti 1",
+      "Tegund": "Hipster bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Bergstaðastræti 1&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Kíkí Queer bar":{
+      "Heimilisfang": "Laugavegur 22",
+      "Tegund": "Queer bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Laugavegur 22&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Lebowski Bar":{
+      "Heimilisfang": "Laugavegur 20a",
+      "Tegund": "Lebowski tribute bar",
+      "map": "https://maps.google.com/maps?hl=en&q=Laugavegur 20a&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Micro bar":{
+      "Heimilisfang": "Austurstræti 6",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=austurstræti 6&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Prikið":{
+      "Heimilisfang": "Bankastræti 12",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=bankastræti 12&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Vegamót":{
+      "Heimilisfang": "Vegamótastígur 4",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=vegamótastígur 4&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+    "Ísafold Lounge and Bar":{
+      "Heimilisfang": "Þingholtsstræti 3-5",
+      "Tegund": "[insert tegund here]",
+      "map": "https://maps.google.com/maps?hl=en&q=Þingholtsstræti 3-5&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"
+    }
+  }
+}
